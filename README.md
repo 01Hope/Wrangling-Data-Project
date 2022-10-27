@@ -1,8 +1,8 @@
 # Wrangling-Data-Project
 
-WRANGLING DATA REPORT 
+**WRANGLING DATA REPORT** 
 
-DATA GATHERING: 
+**DATA GATHERING:** 
 
  In this project, all three pieces of data for the project were gathered differently and loaded them in the notebook using the pandas dataframe  
 The files were: 
@@ -12,7 +12,7 @@ The files were:
  Please note that I couldn’t get a Twitter developer account, therefore, I accessed the project data without a twitter account using the tweet_json.txt file provided and appending only the id, retweet count and favorite columns.  
 NOTE: All required libraries were imported before gathering the datasets and loading them into the dataframe. 
  
- Assessing Data: 
+ **Assessing Data:**
  
 Did a visual and programmatic assessment for the 3 dataset using the assessment methods in pandas and listed 8 quality issues and 2 tidyness issues to be cleaned. 
 Quality issues were: 
@@ -24,19 +24,19 @@ Quality issues were:
  5. some rating denominator are not equal to 10 
 
  
- Image prediction dataset issues:
+ **Image prediction dataset issues:**
  
 6. some image predictions are not dogs which has to be removed from the dataset 
 7. some dog name are missing or wierd (like ’a’ and ’the’ which are misspelt), usually those starting with lowercases.  
 8. change column names such as p1, p2, p3 to be more descriptive 
 9. the prediction dog breeds are starting with both upper and lower case which is not consistent 
   
-Tidiness issues:
+**Tidiness issues:**
 
 1. The three dataset should be merged to one.  
 2. create a single column for all dog names in the twitter archive dataset 
  
- Cleaning Data:  
+ **Cleaning Data:**  
  
 • I made a copy of the original data before cleaning. 
  • Cleaned all of the issues I documented while assessing. 
